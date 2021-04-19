@@ -1,0 +1,73 @@
+/* 
+  Localizable.strings
+  GameOverseasSdk
+
+  Created by xuhaipeng on 2021/2/1.
+  Copyright © 2021 北京奇虎科技有限公司. All rights reserved.
+*/
+
+/** 登录界面 */
+"LoginTitle" = "login";
+
+"SignInWith" = "Sign in with";
+
+"LoginTypeApple"    = "Apple";
+"LoginTypeGoogle"   = "Google";
+"LoginTypeFaceBook" = "FaceBook";
+"LoginTypeLine"     = "Line";
+"LoginTypeTwitter"  = "Twitter";
+"LoginTypeGuest"    = "Guest";
+"OtherLoginWay"     = "Other login methods";
+
+/** 协议相关 */
+"ReadAndAgreeTo"  = "Read and agree to";
+"And"             = "and";
+
+/** 升级页面 */
+"TipTitle"    = "tips";
+"TipMessage"  = "Dear player, log-in as guest cannot ensure the data security. We advise you:";
+"UpgradeAccountMsg"    = "upgrade to formal account";
+"KeepGuestMsg"         = "keep guest account";
+
+/** webview相关 */
+"WebviewCantShow" = "the website cannot not be displayed";
+"CheckTheNetwork" = "please check the network connection or refresh it";
+"Refresh"         = "refresh";
+
+/** 提示相关 */
+"Confirm"    = "confirm";
+"Cancel"     = "cancel";
+"CheckAgreement" = "Please read and check the agreement";
+
+/** 商品不可用或者下架 */
+"NoGood"     = "goods may not be used or removed from shelves";
+/** 当前设备不支持购买 */
+"NotSupport"= "the device is not supported for purchase";
+/** 金额错误 */
+"PaymentAmountError"       = "wrong amount";
+/** 金额初始化失败，请检查传入参数 */
+"PaymentInitError"         = "amount initialization failed. Check parameters";
+/** 获取订单号失败 */
+"GetOrderIdError"           = "failed to get the order";
+/** 交易中 */
+"TradingIn"                 = "in trading";
+/** 订单验证中 */
+"OrderVerification"         = "in order verification";
+/** 支付订单提交失败 */
+"PaymentSubmissionFailed"   = "failed to submit payment order";
+/** 支付成功 */
+"PaymentSuccess"            = "payment successful";
+/** 支付失败 */
+"PaymentFailure"            = "payment failure";
+/** 订单状态异常 */
+"OrderError"                = "order error";
+/** 网址不能为空 */
+"UrlCantEmpty"              = "URL cannot be empty";
+/** 发生错误 */
+"CommonError"               = "error";
+/** 暂时无法登录 */
+"CantLogin"                 = "temporarily login error";
+/** 暂时无网络 */
+"NotConnected"              = "temporarily no connection to network";
+/** 还有未完成订单 */
+"HaveUnFinshOrder"          = "unfinished payment";

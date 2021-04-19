@@ -1,0 +1,111 @@
+PODS:
+  - Alamofire (5.2.2)
+  - AppAuth (1.4.0):
+    - AppAuth/Core (= 1.4.0)
+    - AppAuth/ExternalUserAgent (= 1.4.0)
+  - AppAuth/Core (1.4.0)
+  - AppAuth/ExternalUserAgent (1.4.0)
+  - AppsFlyerFramework (6.1.4):
+    - AppsFlyerFramework/Main (= 6.1.4)
+  - AppsFlyerFramework/Main (6.1.4)
+  - CocoaLumberjack/Core (3.6.2)
+  - CocoaLumberjack/Swift (3.6.2):
+    - CocoaLumberjack/Core
+  - FBSDKCoreKit (8.2.0):
+    - FBSDKCoreKit/Basics (= 8.2.0)
+    - FBSDKCoreKit/Core (= 8.2.0)
+  - FBSDKCoreKit/Basics (8.2.0)
+  - FBSDKCoreKit/Core (8.2.0):
+    - FBSDKCoreKit/Basics
+  - FBSDKLoginKit (8.2.0):
+    - FBSDKLoginKit/Login (= 8.2.0)
+  - FBSDKLoginKit/Login (8.2.0):
+    - FBSDKCoreKit (~> 8.2.0)
+  - GameOverseasSdk (1.0.0):
+    - Alamofire (~> 5.2.2)
+    - AppsFlyerFramework (~> 6.1.4)
+    - CocoaLumberjack/Swift (~> 3.6.1)
+    - FBSDKLoginKit (~> 8.2.0)
+    - GoogleSignIn (~> 5.0.2)
+    - KakaJSON (~> 1.1.2)
+    - KeychainAccess (~> 4.2.0)
+    - LineSDKSwift (~> 5.7.0)
+    - MBProgressHUD (~> 1.2.0)
+    - SnapKit (~> 5.0.1)
+    - SwiftyJSON (~> 5.0.0)
+  - GoogleSignIn (5.0.2):
+    - AppAuth (~> 1.2)
+    - GTMAppAuth (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GTMAppAuth (1.2.1):
+    - AppAuth/Core (~> 1.4)
+    - GTMSessionFetcher/Core (~> 1.5)
+  - GTMSessionFetcher/Core (1.5.0)
+  - KakaJSON (1.1.2)
+  - KeychainAccess (4.2.2)
+  - LineSDKSwift (5.7.0):
+    - LineSDKSwift/Core (= 5.7.0)
+  - LineSDKSwift/Core (5.7.0)
+  - MBProgressHUD (1.2.0)
+  - SnapKit (5.0.1)
+  - Swifter (2.5.0)
+  - SwiftyJSON (5.0.1)
+
+DEPENDENCIES:
+  - GameOverseasSdk (from `https://github.com/qihoogcsdk/GameOverseasSdk.git`)
+  - Swifter (from `https://github.com/mattdonnelly/Swifter.git`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AppAuth
+    - AppsFlyerFramework
+    - CocoaLumberjack
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - GoogleSignIn
+    - GTMAppAuth
+    - GTMSessionFetcher
+    - KakaJSON
+    - KeychainAccess
+    - LineSDKSwift
+    - MBProgressHUD
+    - SnapKit
+    - SwiftyJSON
+
+EXTERNAL SOURCES:
+  GameOverseasSdk:
+    :git: https://github.com/qihoogcsdk/GameOverseasSdk.git
+  Swifter:
+    :git: https://github.com/mattdonnelly/Swifter.git
+
+CHECKOUT OPTIONS:
+  GameOverseasSdk:
+    :commit: ef03f8cbf338b658e5fc03aa339fd96f4eb2a466
+    :git: https://github.com/qihoogcsdk/GameOverseasSdk.git
+  Swifter:
+    :commit: 50682ebe64e4c08f18957ccfd16888f035c20755
+    :git: https://github.com/mattdonnelly/Swifter.git
+
+SPEC CHECKSUMS:
+  Alamofire: 814429acc853c6c54ff123fc3d2ef66803823ce0
+  AppAuth: 31bcec809a638d7bd2f86ea8a52bd45f6e81e7c7
+  AppsFlyerFramework: ed1a754b74739bafbcb0d8235d6bc4f0ffe2e0ec
+  CocoaLumberjack: bd155f2dd06c0e0b03f876f7a3ee55693122ec94
+  FBSDKCoreKit: 4afd6ff53d8133a433dbcda44451c9498f8c6ce4
+  FBSDKLoginKit: 7181765f2524d7ebf82d9629066c8e6caafc99d0
+  GameOverseasSdk: bcff6eadd6bd5ed6ea949e78e1a21afbb7ea7c27
+  GoogleSignIn: 7137d297ddc022a7e0aa4619c86d72c909fa7213
+  GTMAppAuth: 5b53231ef6920f149ab84b2969cb0ab572da3077
+  GTMSessionFetcher: b3503b20a988c4e20cc189aa798fd18220133f52
+  KakaJSON: cc5ff50a8c1cfbb09413db8496cb709a209e6137
+  KeychainAccess: c0c4f7f38f6fc7bbe58f5702e25f7bd2f65abf51
+  LineSDKSwift: f9c232f89185b887b5725aa278325f3a23e33bbc
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  Swifter: 4c2f8cf320c2f751c10128f841d8e9bd8609d988
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+
+PODFILE CHECKSUM: 52a616741a86b4ded68fb58074502a81dde07c53
+
+COCOAPODS: 1.10.1

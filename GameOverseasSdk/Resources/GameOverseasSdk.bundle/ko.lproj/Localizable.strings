@@ -1,0 +1,71 @@
+/* 
+  Localizable.strings
+  GameOverseasSdk
+
+  Created by xuhaipeng on 2021/2/1.
+  Copyright © 2021 北京奇虎科技有限公司. All rights reserved.
+*/
+
+/** 标题 */
+"LoginTitle" = "로그인";
+"SignInWith" = " ";
+"LoginTypeApple"    = "애플로 로그인";
+"LoginTypeGoogle"   = "구글로 로그인";
+"LoginTypeFaceBook" = "페이스북으로 로그인";
+"LoginTypeLine"     = "라인으로 로그인";
+"LoginTypeTwitter"  = "트위터로 로그인";
+"LoginTypeGuest"    = "게스트 로그인";
+"OtherLoginWay"     = "기타 로그인";
+
+/** 协议相关 */
+"ReadAndAgreeTo"  = "확인 및 동의";
+"And"             = "그리고";
+
+/** 升级页面 */
+"TipTitle"    = "알림";
+"TipMessage"  = "친애하는 플레이어님, 게스트 계정은 데이터 소실 문제가 발생할 수 있으니";
+"UpgradeAccountMsg"    = "로그인하기";
+"KeepGuestMsg"         = "게스트로 로그인";
+
+/** webview相关 */
+"WebviewCantShow" = "방문하려는 페이지를 로드할 수 없습니다.";
+"CheckTheNetwork" = "네트워크 환경설정을 확인한 후 다시 시도 해 주세요.";
+"Refresh"         = "다시 시도";
+
+/** 提示相关 */
+"Confirm"    = "확인";
+"Cancel"     = "취소";
+"CheckAgreement" = "약관 내용을 확인 해 주세요.";
+
+/** 商品不可用或者下架 */
+"NoGood"     = "해당 상품은 이용이 불가하거나 품절되었습니다.";
+/** 当前设备不支持购买 */
+"NotSupport"= "현재 디바이스에서 구매가 불가합니다.";
+/** 金额错误 */
+"PaymentAmountError"       = "금액 오류";
+/** 金额初始化失败，请检查传入参数 */
+"PaymentInitError"         = "금액 리셋 실패. 기입한 값을 다시 확인해 주세요.";
+/** 获取订单号失败 */
+"GetOrderIdError"           = "주문번호 생성 실패";
+/** 交易中 */
+"TradingIn"                 = "거래중";
+/** 订单验证中 */
+"OrderVerification"         = "거래내역 인증중";
+/** 支付订单提交失败 */
+"PaymentSubmissionFailed"   = "결제확인 실패";
+/** 支付成功 */
+"PaymentSuccess"            = "결제 성공";
+/** 支付失败 */
+"PaymentFailure"            = "결제 실패";
+/** 订单状态异常 */
+"OrderError"                = "거래상태 오류";
+/** 还有未完成订单 */
+"HaveUnFinshOrder"          = "진행중인 주문이 있습니다.";
+/** 网址不能为空 */
+"UrlCantEmpty"              = "온라인주소란은 비울 수 없습니다.";
+/** 发生错误 */
+"CommonError"               = "오류 발생";
+/** 暂时无法登录 */
+"CantLogin"                 = "로그인에 실패하였습니다.";
+/** 暂时无网络 */
+"NotConnected"              = "네트워크 오류";

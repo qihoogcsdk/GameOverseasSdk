@@ -1,0 +1,103 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)
+// swift-module-flags: -target arm64-apple-ios10.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name GameOverseasSdk
+import Alamofire
+import AppsFlyerLib
+import AuthenticationServices
+import GameOverseasSdk.BridgeHeadersPrivate
+import CocoaLumberjack
+import CommonCrypto
+import FBSDKCoreKit
+import FBSDKLoginKit
+import Foundation
+@_exported import GameOverseasSdk
+import GoogleSignIn
+import KakaJSON
+import KeychainAccess
+import LineSDK
+import MBProgressHUD
+import QHADSDK
+import SafariServices
+import SnapKit
+import StoreKit
+import Swift
+import Swifter
+import SwiftyJSON
+import UIKit
+import WebKit
+@objc @_inheritsConvenienceInitializers @objcMembers public class QGOSSdkMatrix : ObjectiveC.NSObject {
+  @objc public static let shared: GameOverseasSdk.QGOSSdkMatrix
+  @objc public class func registerSDK(_ application: UIKit.UIApplication, launchOptions: [UIKit.UIApplication.LaunchOptionsKey : Any]?, parameters: [Swift.String : Any])
+  @objc public var supportInterfaceOriention: UIKit.UIInterfaceOrientationMask {
+    @objc get
+    @objc set
+  }
+  @objc public class var sdkVersion: Swift.String {
+    @objc get
+  }
+  @objc public class var isLogEnable: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc public class func handleOpenURL(_ app: UIKit.UIApplication, open url: Foundation.URL, options: [UIKit.UIApplication.OpenURLOptionsKey : Any] = [:]) -> Swift.Bool
+  @objc public class func login(onSignIn: @escaping GameOverseasSdk.LoginCallback.onSignIn, onBindingAccount: @escaping GameOverseasSdk.LoginCallback.onBindingAccount)
+  @objc public class func changeAccount(onSignIn: @escaping GameOverseasSdk.LoginCallback.onSignIn, onBindingAccount: @escaping GameOverseasSdk.LoginCallback.onBindingAccount)
+  @objc public class func loginOut(callbock: @escaping GameOverseasSdk.LoginCallback.onSignOut)
+  @objc public class func setBindingAccountResult(isBindingAccountSuccess: Swift.Bool)
+  @objc public class func loadAd(onAdShow: @escaping GameOverseasSdk.IAdRewardCallback.onAdShow, onReward: @escaping GameOverseasSdk.IAdRewardCallback.onReward, onAdClick: @escaping GameOverseasSdk.IAdRewardCallback.onAdClick, onAdClose: @escaping GameOverseasSdk.IAdRewardCallback.onAdClose, onRenderFailed: @escaping GameOverseasSdk.IAdRewardCallback.onRenderFailed)
+  @objc public class func pay(appUserId: Swift.String, appUserName: Swift.String, productId: Swift.String, productName: Swift.String, productAmount: Swift.String, notiUrl: Swift.String, ipaProductIdentify: Swift.String, onPaySuccess: @escaping GameOverseasSdk.PayCallback.onPaySuccess, onPayFailure: @escaping GameOverseasSdk.PayCallback.onPayFailure)
+  @objc deinit
+  @objc override dynamic public init()
+}
+public struct LoginCallback {
+  public typealias onSignIn = (([Swift.String : Any]) -> Swift.Void)
+  public typealias onSignOut = (() -> Swift.Void)
+  public typealias onBindingAccount = (([Swift.String : Any]) -> Swift.Void)
+}
+public struct PayCallback {
+  public typealias onPaySuccess = (([Swift.String : Any]) -> Swift.Void)
+  public typealias onPayFailure = (([Swift.String : Any]) -> Swift.Void)
+}
+public struct IAdRewardCallback {
+  public typealias onAdShow = (() -> Swift.Void)
+  public typealias onAdClick = (() -> Swift.Void)
+  public typealias onVideoComplete = (() -> Swift.Void)
+  public typealias onAdClose = (() -> Swift.Void)
+  public typealias onReward = (() -> Swift.Void)
+  public typealias onRenderFailed = ((Swift.Error) -> Swift.Void)
+}
+@objc @_inheritsConvenienceInitializers @objcMembers public class QGOSSConfig : ObjectiveC.NSObject {
+  @objc public static let appkey: Swift.String
+  @objc public static let qdasKey: Swift.String
+  @objc public static let faceBookKey: Swift.String
+  @objc public static let googleKey: Swift.String
+  @objc public static let googleServerKey: Swift.String
+  @objc public static let lineKey: Swift.String
+  @objc public static let twitterKey: Swift.String
+  @objc public static let twitterSecret: Swift.String
+  @objc public static let twitterCallbackUrl: Swift.String
+  @objc public static let adKey: Swift.String
+  @objc public static let adSpaceId: Swift.String
+  @objc public static let isAdTest: Swift.String
+  @objc public static let enableLocation: Swift.String
+  @objc public static let flyerKey: Swift.String
+  @objc public static let appleId: Swift.String
+  @objc deinit
+  @objc override dynamic public init()
+}
+extension UIButton {
+  @objc override dynamic open func point(inside point: CoreGraphics.CGPoint, with event: UIKit.UIEvent?) -> Swift.Bool
+}
+@objc public protocol ADRewardVideoDelete {
+  @objc func adRewardVideoDidRewardEffective(rewarded: QHADSDK.QHADRewardVideo)
+  @objc func adRewardVideo(rewarded: QHADSDK.QHADRewardVideo, error: Swift.Error)
+}
+extension ADRewardVideoDelete {
+  public func adRewardVideoDidLoad(rewarded: QHADSDK.QHADRewardVideo)
+  public func adRewardVideoWillPlaying(rewarded: QHADSDK.QHADRewardVideo)
+  public func adRewardVideoDidFinishShow(rewarded: QHADSDK.QHADRewardVideo)
+  public func adRewardVideoClicked(rewarded: QHADSDK.QHADRewardVideo)
+  public func adRewardVideoClosed(rewarded: QHADSDK.QHADRewardVideo)
+  public func adRewardVideoLandingPageShowed(rewarded: QHADSDK.QHADRewardVideo)
+  public func adRewardVideoLandingPageHided(rewarded: QHADSDK.QHADRewardVideo)
+}

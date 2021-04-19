@@ -1,0 +1,9 @@
+platform :ios, '11.0'
+target 'Example' do
+  # 使用静态库
+  use_frameworks!
+  # 海外SDK
+  pod 'GameOverseasSdk', :git => 'https://github.com/qihoogcsdk/GameOverseasSdk.git'
+  # Twitter登录
+  pod 'Swifter' , :git => 'https://github.com/mattdonnelly/Swifter.git'
+end

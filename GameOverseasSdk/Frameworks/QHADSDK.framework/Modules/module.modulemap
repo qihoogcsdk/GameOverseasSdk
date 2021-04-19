@@ -1,0 +1,6 @@
+framework module QHADSDK {
+  umbrella header "QHADSDK.h"
+
+  export *
+  module * { export * }
+}

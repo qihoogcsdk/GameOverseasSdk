@@ -1,0 +1,74 @@
+/*
+  Localizable.strings
+  GameOverseasSdk
+
+  Created by xuhaipeng on 2021/2/1.
+  Copyright © 2021 北京奇虎科技有限公司. All rights reserved.
+*/
+
+/** 登录界面 */
+"LoginTitle" = "登錄";
+
+"SignInWith" = " ";
+
+"LoginTypeApple"    = "Apple 登錄";
+"LoginTypeGoogle"   = "Google 登錄";
+"LoginTypeFaceBook" = "FaceBook 登錄";
+"LoginTypeLine"     = "Line 登錄";
+"LoginTypeTwitter"  = "Twitter 登錄";
+"LoginTypeGuest"    = "Guest 登錄";
+
+"OtherLoginWay"     = "其他登錄方式";
+
+/** 协议相关 */
+"ReadAndAgreeTo"  = "閱讀並同意";
+"And"             = "和";
+
+/** 升级页面 */
+"TipTitle"    = "溫馨提示";
+"TipMessage"  = "親愛的玩家，遊客模式下無法保障遊戲資料的安全，建議您：";
+"UpgradeAccountMsg"    = "升級為正式帳號";
+"KeepGuestMsg"         = "繼續遊客模式";
+
+/** webview相关 */
+"WebviewCantShow" = "您訪問的頁面無法顯示";
+"CheckTheNetwork" = "請檢查網路或刷新";
+"Refresh"         = "刷新";
+
+/** 提示相关 */
+"Confirm"    = "確定";
+"Cancel"     = "取消";
+"CheckAgreement" = "請閱讀並勾選協議";
+
+/** 商品不可用或者下架 */
+"NoGood"     = "商品不可用或者下架";
+/** 当前设备不支持购买 */
+"NotSupport"= "當前設備不支援購買";
+/** 金额错误 */
+"PaymentAmountError"       = "金額錯誤";
+/** 金额初始化失败，请检查传入参数 */
+"PaymentInitError"         = "金額初始化失敗，請檢查傳入參數";
+/** 获取订单号失败 */
+"GetOrderIdError"           = "獲取訂單號失敗";
+/** 交易中 */
+"TradingIn"                 = "交易中";
+/** 订单验证中 */
+"OrderVerification"         = "訂單驗證中";
+/** 支付订单提交失败 */
+"PaymentSubmissionFailed"   = "支付訂單提交失敗";
+/** 支付成功 */
+"PaymentSuccess"            = "支付成功";
+/** 支付失败 */
+"PaymentFailure"            = "支付失敗";
+/** 订单状态异常 */
+"OrderError"                = "訂單狀態異常";
+/** 网址不能为空 */
+"UrlCantEmpty"              = "網址不能為空";
+/** 发生错误 */
+"CommonError"               = "發生錯誤";
+/** 暂时无法登录 */
+"CantLogin"                 = "暫時無法登錄";
+/** 暂时无网络 */
+"NotConnected"              = "暫時無網路";
+/** 还有未完成订单 */
+"HaveUnFinshOrder"          = "還有未完成訂單";
