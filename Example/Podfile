@@ -3,7 +3,7 @@ target 'Example' do
   # 使用静态库
   use_frameworks!
   # 海外SDK
-  pod 'GameOverseasSdk', :git => 'https://github.com/qihoogcsdk/GameOverseasSdk.git'
+  pod 'GameOverseasSdk', :git => 'https://github.com/qihoogcsdk/GameOverseasSdk.git', :branch => '1.1.0'
   # Twitter登录
   pod 'Swifter' , :git => 'https://github.com/mattdonnelly/Swifter.git'
 end
